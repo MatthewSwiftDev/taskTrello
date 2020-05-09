@@ -12,56 +12,62 @@
 	<div class="row">
 		<div class="columns">
 			<div class="column" draggable="true" data-column-id="1">
-				<p class = "column-header">Tasks</p>
+				<p class = "column-header" contenteditable="true">Tasks</p>
 				<div data-cards>
-					<div class="card" draggable="true" data-node-id="1"> TAsk dsffjdklsjf dklsfdsfkjdsklfj fdkjs</div>
-					<div class="card" draggable="true" data-node-id="2"> TAsk</div>
-					<div class="card" draggable="true" data-node-id="3"> TAsk</div>
+					<div class="card" draggable="true" data-card-id="1"> Придумать уникальную фичу </div>
+					<div class="card" draggable="true" data-card-id="2"> Написать авторизацию</div>
+					<div class="card" draggable="true" data-card-id="3"> Написать регистрацию</div>
 				</div>
-				<p class="column-footer">+ Добавить карточку</p>
+				<p class="column-footer">
+					<span data-action-addCard class="action">+ Добавить карточку</span>
+				</p>
 
 			</div>
 
 			<div class="column" draggable="true" data-column-id="2">
-				<p class = "column-header">In progress</p>
+				<p class = "column-header" contenteditable="true">In progress</p>
 				<div data-cards>
-					<div class="card" draggable="true" data-node-id="4"> TAsk</div>
-					<div class="card" draggable="true" data-node-id="5"> TAsk</div>
-					<div class="card" draggable="true" data-node-id="6"> TAsk</div>
+					<div class="card" draggable="true" data-card-id="4"> Изучение HTML</div>
+					<div class="card" draggable="true" data-card-id="5"> Изучение CSS</div>
+					<div class="card" draggable="true" data-card-id="6"> Изучение JS</div>
 				</div>
-				<p class="column-footer">+ Добавить карточку</p>
+				<p class="column-footer">
+					<span data-action-addCard class="action">+ Добавить карточку</span>
+				</p>
 			</div>
 
 			<div class="column" draggable="true" data-column-id="3">
-				<p class = "column-header">Testing</p>
+				<p class = "column-header" contenteditable="true">Testing</p>
 				<div data-cards>
-					<div class="card" draggable="true" data-node-id="7"> TAsk</div>
-					<div class="card" draggable="true" data-node-id="8"> TAsk</div>
-					<div class="card" draggable="true" data-node-id="9"> TAsk</div>
-					<div class="card" draggable="true" data-node-id="10"> TAsk</div>
+					<div class="card" draggable="true" data-card-id="7"> Добавление карточек</div>
+					<div class="card" draggable="true" data-card-id="8"> Добавление колонок</div>
+					<div class="card" draggable="true" data-card-id="9"> drag-and-drop</div>
+					<div class="card" draggable="true" data-nocardde-id="10"> Новая фича</div>
 				</div>
-				<p class="column-footer">+ Добавить карточку</p>
+				<p class="column-footer">
+					<span data-action-addCard class="action">+ Добавить карточку</span>
+				</p>
 			</div>
 
 			<div class="column" draggable="true" data-column-id="4">
-				<p class = "column-header">Ready</p>
+				<p class = "column-header" contenteditable="true">Ready</p>
 				<div data-cards>
-					<div class="card" draggable="true" data-node-id="11"> TAsk</div>		
-					<div class="card" draggable="true" data-node-id="12"> TAsk</div>
+					<div class="card" draggable="true" data-card-id="11"> Дизайн сайта</div>		
+					<div class="card" draggable="true" data-card-id="12"> Шаблон сайта</div>
 				</div>
-				<p class="column-footer">+ Добавить карточку</p>
+				<p class="column-footer">
+					<span data-action-addCard class="action">+ Добавить карточку</span>
+				</p>
 			</div>
 
 		</div>
 
 		<div class="add-column">
-			<p class="press">+ Добавить колонку</p>
-
+			<span data-action-addColumn class="press">+ Добавить колонку</span>
 		</div>
 
-
 	</div>
-
+	<script src="Script.js"></script>
 </body>
 
 </html>
